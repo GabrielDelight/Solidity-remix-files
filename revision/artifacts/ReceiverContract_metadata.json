@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"revision/SmartWallet.sol": "ReceiverContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"revision/SmartWallet.sol": {
+			"keccak256": "0xc39071114554e84b162364e28c4f25c71af9006e5bc50d5adb072d93eb984590",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f74f9bb305e1f8ef3e92d47aef8c897d4b5d72b8f29e40569c843491df5108b7",
+				"dweb:/ipfs/QmYCKPkaUyc3gRLMzviF2ZNQjvvYSDwyxKJvcRsrD3SqwF"
+			]
+		}
+	},
+	"version": 1
+}

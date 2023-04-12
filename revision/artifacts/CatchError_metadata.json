@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "error_bytes",
+						"type": "bytes"
+					}
+				],
+				"name": "ErrorBytes",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "error_code",
+						"type": "uint256"
+					}
+				],
+				"name": "ErrorCode",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "error_message",
+						"type": "string"
+					}
+				],
+				"name": "ErrorHandler",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "success_message",
+						"type": "string"
+					}
+				],
+				"name": "SucccessMessage",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "CatchErrorFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"revision/ExceptionHandling.sol": "CatchError"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"revision/ExceptionHandling.sol": {
+			"keccak256": "0xfd8278f8543d0fab85aad58c9cdebc584932ff89a99bc6fbbe811769fb065ff8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56af730aac5fe8029e18682a60cf8da568eea004a8df09945b85066dfe482b4f",
+				"dweb:/ipfs/QmTghQH1N6BBgxAWCDZxDhk8JLb8jkYDCBh7hrKMSqpfZR"
+			]
+		}
+	},
+	"version": 1
+}

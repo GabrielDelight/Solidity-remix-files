@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destructFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"revision/SelfDestruct.sol": "ExampleDestruct"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"revision/SelfDestruct.sol": {
+			"keccak256": "0x5f5f785d40db91e040612b68a93d9f86bff6be037d07ccd03b4bdce393f6a3be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26c01b69746fe7960b9b1097392de531c72e8aaa2b303cf0fab2398209e58b17",
+				"dweb:/ipfs/QmUeyFHGXMMY8XzfMfB7jb6F2WhDFBmFE1u3Ht8WSvKBvq"
+			]
+		}
+	},
+	"version": 1
+}
