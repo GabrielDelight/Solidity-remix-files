@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleUnit.sol": "MyFunction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleUnit.sol": {
+			"keccak256": "0x40b72450f6d5b51ce82ad590bbc477e77c47314dee061dfed350295f3babd098",
+			"urls": [
+				"bzz-raw://25ed393b7087febc5de4df106972fe59a886e24e48a30f6682b0f8925de076d3",
+				"dweb:/ipfs/QmbVQyuJnCwJf8AAgJavrKPXTU37m3RAyELVk8BUM3X1Lu"
+			]
+		}
+	},
+	"version": 1
+}

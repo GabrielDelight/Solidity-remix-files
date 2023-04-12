@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "ErrorLogging",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "catchError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SendTransfer.sol": "CatchError"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SendTransfer.sol": {
+			"keccak256": "0x9b1be9b4d6f868846f5102ed3b10006e00bae6652405aea41c46c9ca8f69ee30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2d2471cae2aa4a292aa39323bb183d9acf55cdd2d2a8f28363bfb03f5e23182",
+				"dweb:/ipfs/QmfG23rJqBwQd5KKrSKusRmNd7aF2r2gqRBrGULjwvuqpC"
+			]
+		}
+	},
+	"version": 1
+}

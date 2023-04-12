@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ErrorHandling",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TryCatchExample.sol": "ErrorHandlingContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TryCatchExample.sol": {
+			"keccak256": "0x25f9c0b35c1161f72b936d225f7a961426e88eefc07f921f7cc416e523c2ce82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a267e93765de38e7993ed2e847a74c54300ae963359c42be19694cb43488b4b",
+				"dweb:/ipfs/QmeBr9YXyCgXM2fuJ7VYBEk7betAHAgyjpRvYBCQuwXaWW"
+			]
+		}
+	},
+	"version": 1
+}

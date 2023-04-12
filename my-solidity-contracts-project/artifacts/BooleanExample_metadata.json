@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_balance",
+						"type": "address"
+					}
+				],
+				"name": "addresssBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CherckBalance.sol": "BooleanExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CherckBalance.sol": {
+			"keccak256": "0x9fad59df40c06ab93832d7872be4bd87bd1349a0529079a611a65f3fe5e1272f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b50ad78395e52a4c838d08ac999ca31c8798cba0047caa2dc3a40c8fe487495",
+				"dweb:/ipfs/QmNe2ph3yWkBy9Th7NjzaR1qnZHepHjqp1FLmheFvqQzbK"
+			]
+		}
+	},
+	"version": 1
+}
